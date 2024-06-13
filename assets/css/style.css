@@ -545,6 +545,18 @@
   padding: 32px 16px;
 }
 
+#es-loreal.es-loreal .es-slider__slide1__text {
+  margin-top: -20px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-weight: 300;
+  text-align: center;
+  text-transform: none;
+}
+#es-loreal.es-loreal .es-slider__slide1__text--purple {
+  color: purple;
+}
+
 #es-loreal.es-loreal .es-slider__title span {
   display: block;
   color: var(--color-white);
@@ -1697,7 +1709,8 @@
 
 @media screen and (min-width: 1200px) {
   #es-loreal.es-loreal .es-kv__img--packshot {
-    transform: translateX(25%);
+    transform: translateX(16%);
+    max-width: 900px;
   }
 
   #es-loreal.es-loreal .es-routine__step--left {
